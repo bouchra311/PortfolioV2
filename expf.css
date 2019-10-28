@@ -1,0 +1,214 @@
+
+nav {
+
+  max-width: 100%;
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  margin: 0 auto;
+  padding: 0px 0;
+}
+
+nav ul {
+
+  text-align: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 18px;
+  font-family: "Open Sans";
+  text-transform:uppercase;
+  color: rgba(0, 35, 122, 0.5);
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 35, 122, 0.7);
+}
+
+.row {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 2%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #8f8f8f;
+  background: white;
+  font-family: "Cardo", serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 1.8;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 17px;
+  line-height: 2;
+}
+
+footer{
+  background-color:#A390B7;
+  background-size: contain;
+  color: black;
+}
+footer p{
+  margin-left: 800px;
+  padding-top: 60px;
+}
+#logo{
+  margin-bottom: -13px;
+  padding-left: 6px;
+}
+.content {
+  padding: 50px 2% 250px;
+}
+
+.hero {
+  position: relative;
+  background: url("computer.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  color:#CD5C5C;
+  padding-top: 110px;
+  min-height: 500px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+}
+.hero h1 {
+  font-size: 50px;
+  line-height: 1.3;
+}
+.hero h1 span {
+  font-size: 25px;
+  color:#CD5C5C;
+  border-bottom: 2px solid #CD5C5C;
+  padding-bottom: 12px;
+  line-height: 3;
+}
+.moi{
+  font-style: oblique;
+}
+.dev{
+
+  font-weight: bold;
+}
+.cv{
+
+  width: 60%;
+  margin-left: 390px;
+}
+
+
+.techno{
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+}
+.techno img{
+  margin-right: 16px;
+}
+.s2{
+  background-color: #FDF5E6;
+  margin-top: 150px;
+}
+.s3{
+  margin-top: 150px;
+}
+
+.s4{
+  background-color: #FDF5E6;
+  margin-top: 150px;
+}
+.resaux{
+  margin-left: 800px;
+}
+.resaux img{
+  margin-right: 60px;
+}
+.simplon img {
+margin-left: 50px;
+  width: 15%;
+}
+span img{
+  margin-bottom: -20px;
+}
+span{
+  font-weight: bold;
+}
+#bloc{
+  display: flex;
+  flex-direction: row;
+width: 100%;
+
+}
+figure{
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+figure a{
+  display: flex;
+  flex-direction: column;
+}
+figcaption{
+padding: 3px;
+text-align: justify;
+}
+
+.blocimages1{
+
+  width: 100%;
+
+}
+.blocimages2{
+margin-left: 100px;
+margin-top: 2px;
+width: 100%;
+
+}
+.img:hover{
+opacity: 0.5;
+cursor: pointer;
+}
+
+.img{
+border-radius: 20px;
+width: 50%;
+}
+#chauss,#wordpress,#bmw,#js,#menu,#one{
+
+  margin-top: 300px;
+}
+.imitation{
+  margin-bottom: 42px;
+  margin-top: 22px;
+}
